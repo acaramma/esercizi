@@ -1,0 +1,17 @@
+Realizzare una pagina con uno script che, dopo aver chiesto il nome dell'utente verifica, controllando in un array di nomi che hanno i diritti di amministratore, se l'utente è abilitato ad accedere alla pagina.
+
+
+1		INIZIO
+
+2		Scrivi: "Inserire il nome dell'utente"
+3		Leggi il nome dall'utente
+
+4		Controlla nome nell'array
+
+5		Se nome ha diritti di amministrazione
+5.1		Accedi alla pagina
+
+6		Altrimenti:
+6.1		Vieta l'accesso alla pagina
+
+7		FINE

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Quadrato</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container">
+			<div class="titolo">
+				<h1>Quadrato</h1>
+				<p>Effettuare il quadrato dei primi 15 numeri</p>
+			</div>
+			<div class="quad">
+				<script>
+					function Quadrato(){	
+						for(i=1; i<=15; i++){
+							document.writeln(i + ")");
+							document.writeln(i * i + "<br>");
+						}
+						document.writeln("Fine elaborazione");
+					}
+				</script>
+				<div class="bottone">
+					<input type="button" name="invio" value="Svolgi" style="width: 100px; height: 50px;" onclick="Quadrato()">
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

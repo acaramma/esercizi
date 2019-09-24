@@ -6,7 +6,7 @@ function controllo(){
 	for(i = 0; i < lun; i++){
 		var nome = utenti[i];
 		if(entry==nome){
-			
+			console.log("Accesso Effettuato");
 		}
 	}
 }

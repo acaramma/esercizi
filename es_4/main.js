@@ -1,4 +1,5 @@
 var utenti = ["root", "Andrea", "Sofia", "Silvia", "Pasquale"];
+var psw = ["root", "Ciao123", "qwerty", "12345", "asdfg"];
 var lun = utenti.length;
 
 function controllo(){
